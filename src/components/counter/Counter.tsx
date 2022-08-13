@@ -5,6 +5,8 @@ import styled from 'styled-components';
 const Counter = () => {
   const [currentValue, setCurrentValue] = useState(0)
   const incrementValue = () => setCurrentValue(currentValue + 1);
+  // Implement a useEffect hook that, when the count hits a multiple of 5 it
+  // renders a message
 
 
   return <>
